@@ -1,0 +1,23 @@
+# Local state files (contains sensitive resource metadata)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs and debug output
+crash.log
+crash.*.log
+
+# Terraform local directory / Provider cache
+.terraform/
+.terraform.lock.hcl
+
+# Variable files containing credentials or sensitive parameters
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Environment credential files
+.env
